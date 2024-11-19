@@ -5,6 +5,8 @@ import cv2
 import matplotlib.pyplot as plt
 from io import BytesIO
 
+print("OpenCV version:", cv2.__version__)
+
 # Variabel global untuk menyimpan gambar hasil filter
 filtered_image_pil = None
 
